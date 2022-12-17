@@ -1,0 +1,14 @@
+.coffeeMap{
+    display: flex;
+}
+.sizeOfCoffee{
+    width:400px;
+    height: 250px;
+}
+.photos{
+    display: flex;
+    
+}
+.text{
+    padding-left: 30px;
+}
