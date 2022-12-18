@@ -160,7 +160,7 @@ include "libs.php"
     <button>Download now</button>
   </div>
   <a href="#!" class="newbook_item">
-  <img class="big_book" src="снеговик.jpg" alt="">
+  <img class="big_book" src="./assets/img/снеговик.jpg" alt="">
   <div class="newbook_item-overlay">
     <h5>Снеговик</h5>
     <h6>Ю Несбё</h6>
@@ -176,7 +176,7 @@ include "libs.php"
   </div>
 </a>
 <a href="#!" class="newbook_item">
-  <img class="big_book" src="происхождение.jpg" alt="">
+  <img class="big_book" src="./assets/img/происхождение.jpg" alt="">
   <div class="newbook_item-overlay">
     <h5>Происхождение</h5>
     <h6>Дэн Браун</h6>
@@ -192,7 +192,7 @@ include "libs.php"
   </div>
 </a>
 <a href="#!" class="newbook_item">
-  <img class="big_book" src="мистер_мерседес.jpg" alt="">
+  <img class="big_book" src="./assets/img/мистер_мерседес.jpg" alt="">
   <div class="newbook_item-overlay">
     <h5>Мистер Мерседес</h5>
     <h6>Стивен Кинг</h6>
@@ -208,7 +208,7 @@ include "libs.php"
   </div>
 </a>
 <a href="#!" class="newbook_item">
-  <img class="big_book" src="безмолвный пациент.jpg" alt="">
+  <img class="big_book" src="./assets/img/безмолвный пациент.jpg" alt="">
   <div class="newbook_item-overlay">
     <h5>Безмолвный пациент</h5>
     <h6>Алекс Михаэлидес</h6>
@@ -224,7 +224,7 @@ include "libs.php"
   </div>
 </a>
 <a href="#!" class="newbook_item">
-  <img class="big_book" src="побег.jpg" alt="">
+  <img class="big_book" src="./assets/img/побег.jpg" alt="">
   <div class="newbook_item-overlay">
     <h5>РИТА ХЕЙУОРТ ИЛИ ПОБЕГ ИЗ ШОУШЕНКА</h5>
     <h6>Стивен Кинг</h6>
@@ -240,7 +240,7 @@ include "libs.php"
   </div>
 </a>
 <a href="#!" class="newbook_item">
-  <img class="big_book" src="этюд.jpg" alt="">
+  <img class="big_book" src="./assets/img/этюд.jpg" alt="">
   <div class="newbook_item-overlay">
     <h5>Этюд в багровых тонах</h5>
     <h6>Артур Конан Дойл</h6>
