@@ -127,42 +127,134 @@ include "libs.php"
    </div>
     <section class="newbooks">
       <div class="container">
-      <div class="top_title">
-        <h3>Detective</h3>
-      </div>
       <div class="newbooks_items">
-        <a href="viewpage.php" class="newbook_item">
-          <img class="big_book" src="./assets/img/убийствоввосточномэкспрессе.jpg" alt="">
-          <div class="newbook_item-overlay">
-            <h5>Убийство в «Восточном экспрессе»</h5>
-            <h6>Агата Кристи</h6>
-            <div class="newbook_item-rateing">
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star-half'></i>
-            </div>  
-            <button>View</button>
-            <button>Download now</button>
-          </div>
-        </a>
-        <a href="#!" class="newbook_item">
-          <img class="big_book" src="./assets/img/десятьнегритят.jpg" alt="">
-          <div class="newbook_item-overlay">
-            <h5>Десять негритят</h5>
-            <h6>Агата Кристи</h6>
-            <div class="newbook_item-rateing">
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-            </div>  
-            <button>View</button>
-            <button>Download now</button>
-          </div>
-        </a>
+      <a href="viewpage.html" class="newbook_item">
+  <img class="big_book" src="./assets/img/убийствоввосточномэкспрессе.jpg" alt="">
+  <div class="newbook_item-overlay">
+    <h5>Убийство в «Восточном экспрессе»</h5>
+    <h6>Агата Кристи</h6>
+    <div class="newbook_item-rateing">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half'></i>
+    </div>  
+    <button>View</button>
+    <button>Download now</button>
+  </div>
+</a>
+<a href="#!" class="newbook_item">
+  <img class="big_book" src="./assets/img/десятьнегритят.jpg" alt="">
+  <div class="newbook_item-overlay">
+    <h5>Десять негритят</h5>
+    <h6>Агата Кристи</h6>
+    <div class="newbook_item-rateing">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+    </div>  
+    <button>View</button>
+    <button>Download now</button>
+  </div>
+  <a href="#!" class="newbook_item">
+  <img class="big_book" src="снеговик.jpg" alt="">
+  <div class="newbook_item-overlay">
+    <h5>Снеговик</h5>
+    <h6>Ю Несбё</h6>
+    <div class="newbook_item-rateing">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half'></i>
+    </div>  
+    <button>View</button>
+    <button>Download now</button>
+  </div>
+</a>
+<a href="#!" class="newbook_item">
+  <img class="big_book" src="происхождение.jpg" alt="">
+  <div class="newbook_item-overlay">
+    <h5>Происхождение</h5>
+    <h6>Дэн Браун</h6>
+    <div class="newbook_item-rateing">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+    </div>  
+    <button>View</button>
+    <button>Download now</button>
+  </div>
+</a>
+<a href="#!" class="newbook_item">
+  <img class="big_book" src="мистер_мерседес.jpg" alt="">
+  <div class="newbook_item-overlay">
+    <h5>Мистер Мерседес</h5>
+    <h6>Стивен Кинг</h6>
+    <div class="newbook_item-rateing">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+    </div>  
+    <button>View</button>
+    <button>Download now</button>
+  </div>
+</a>
+<a href="#!" class="newbook_item">
+  <img class="big_book" src="безмолвный пациент.jpg" alt="">
+  <div class="newbook_item-overlay">
+    <h5>Безмолвный пациент</h5>
+    <h6>Алекс Михаэлидес</h6>
+    <div class="newbook_item-rateing">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+    </div>  
+    <button>View</button>
+    <button>Download now</button>
+  </div>
+</a>
+<a href="#!" class="newbook_item">
+  <img class="big_book" src="побег.jpg" alt="">
+  <div class="newbook_item-overlay">
+    <h5>РИТА ХЕЙУОРТ ИЛИ ПОБЕГ ИЗ ШОУШЕНКА</h5>
+    <h6>Стивен Кинг</h6>
+    <div class="newbook_item-rateing">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+    </div>  
+    <button>View</button>
+    <button>Download now</button>
+  </div>
+</a>
+<a href="#!" class="newbook_item">
+  <img class="big_book" src="этюд.jpg" alt="">
+  <div class="newbook_item-overlay">
+    <h5>Этюд в багровых тонах</h5>
+    <h6>Артур Конан Дойл</h6>
+    <div class="newbook_item-rateing">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+    </div>  
+    <button>View</button>
+    <button>Download now</button>
+  </div>
+</a>
         
       </div>
       </div>
