@@ -118,8 +118,13 @@ include "libs.php"
         </a>
       </nav>
     </div>
-
-    <!--========== CONTENTS ==========-->
+ <div class="detective">
+      <video src="detective.mp4" type="video/mp4" autoplay muted loop></video>
+      <div class="effects"></div>
+      <div class="detective__content">
+         <h1>Detective</h1>
+      </div>
+   </div>
     <section class="newbooks">
       <div class="container">
       <div class="top_title">
