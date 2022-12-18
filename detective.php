@@ -258,7 +258,31 @@ include "libs.php"
         
       </div>
       </div>
-    </section>
+      <hr style="border: 2px solid #339999;">
+</section>
+<div class="d_movies">
+<h1 class="d">you may also like: </h1>
+</div>
+<div class="columns">
+<div class="column">
+  <video src="Шерлок. Чертоги разума. Ментальные карты.mp4" type="video/mp4" autoplay muted loop style="border-radius: 30px; width: 400px; height: 300px; margin-left: 70px;"></video>
+  <br>
+  <a href="https://sherlock-online.ru/" style="margin-left: 70px;">Sherlock</a>
+  <h5 style="margin-left: 70px;">Sherlock is a British mystery crime drama television series based on Sir Arthur Conan Doyle's Sherlock Holmes detective stories.</h5>
+</div>
+<div class="column">
+  <video src="knives_out.mp4" type="video/mp4" autoplay muted loop style="border-radius: 10px; width: 400px; height: 300px;"></video>
+  <br>
+  <a href="https://kinobar.vip/18076-nozhi-nagolo-1-v9.html">Knives out</a>
+<h5>Knives Out is a 2019 American mystery film written and directed by Rian Johnson and produced by Johnson and Ram Bergman. It follows a master detective, Benoit Blanc, investigating the death of the patriarch of a wealthy, dysfunctional family. </h5>
+        </div>
+        <div class="column">
+          <video src="Murder_on_the_Orient_Express.mp4" type="video/mp4" autoplay muted loop style="border-radius: 10px; width: 400px; height: 300px;"></video>
+          <br>
+          <a href="https://kinobar.vip/12728-ubiystvo-v-vostochnom-ekspresse-v2.html">Murder on the Orient Express</a>
+          <h5>Murder on the Orient Express is a 2017 mystery film directed by Kenneth Branagh with a screenplay by Michael Green, based on the 1934 novel of the same name by Agatha Christie.</h5>
+        </div>
+      </div>
 
     <section class="page_numbers">  
       <div class="container">
