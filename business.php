@@ -19,7 +19,7 @@ include "libs.php"
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="business.css">
+    <link rel="stylesheet" href="business.css?dqdqdq=qfqf">
     <title>JIHC</title>
   </head>
   <body>
@@ -76,11 +76,6 @@ include "libs.php"
       </a>
 
       <a href="#" class="nav__link">
-        <i class="bx bx-heart nav__icon"></i>
-        <span class="nav__name">For you</span>
-      </a>
-
-      <a href="#" class="nav__link">
         <i class="bx bx-search nav__icon"></i>
         <span class="nav__name">Browse</span>
       </a>
@@ -97,14 +92,7 @@ include "libs.php"
         <i class="bx bx-book-alt nav__icon"></i>
         <span class="nav__name">All books</span>
       </a>
-      <a href="#" class="nav__link">
-        <i class="bx bx-list-ul nav__icon"></i>
-        <span class="nav__name">Top books</span>
-      </a>
-      <a href="#" class="nav__link">
-        <i class="bx bx-user nav__icon"></i>
-        <span class="nav__name">Authors</span>
-      </a>
+     
       <a href="newbooks.php" class="nav__link">
         <i class="bx bx-plus-circle nav__icon"></i>
         <span class="nav__name">New books</span>
@@ -308,7 +296,8 @@ include "libs.php"
 </div>
 </div>
 <div >
-<div  style="position:relative;overflow:hidden;"><a href="https://yandex.kz/maps/162/almaty/search/%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D1%8B/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">валюты в Алматы</a><a href="https://yandex.kz/maps/162/almaty/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Алматы</a><iframe src="https://yandex.kz/map-widget/v1/-/CCUn58GF2C" width="900" height="500" frameborder="1" allowfullscreen="true" style="position:relative; border-radius: 10px;margin-left: 70px;"></iframe></div> </div>
+<div  style="position:relative;overflow:hidden;"><a href="https://yandex.kz/maps/162/almaty/search/%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D1%8B/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">валюты в Алматы</a><a href="https://yandex.kz/maps/162/almaty/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Алматы</a>
+<iframe class='business-map' src="https://yandex.kz/map-widget/v1/-/CCUn58GF2C" width="900" height="500" frameborder="1" allowfullscreen="true" style="position:relative; border-radius: 10px;margin-left: 70px;"></iframe></div> </div>
 </div>
 
 <section class="page_numbers">  

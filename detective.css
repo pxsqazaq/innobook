@@ -45,24 +45,54 @@ body {
     padding: 0 20px;
 }
 .d{
-    margin-left: 40%;
+    /* margin-left: 40%; */
+    text-align: center;
     color: #339999;
 }
 .columns {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
     width: 100%;
   }
   
   .column {
+    padding-left: 70px;
+    text-align: center;
     flex: 33.33%;
   }
   .column {
     width: 100%;
   }
-  
-  @media (min-width: 48em) {
+  body{
+    padding: 0!important;
+  }
+  .container{
+    padding-left: 70px;
+  }
+  @media (max-width: 543px) {
+    .detective__content{
+      font-size: 30px!important;
+    }
+  }
+  @media (max-width: 410px) {
+    .column video{
+      max-width: 300px!important;
+    }
+  }
+  @media (max-width: 767px) {
+      .column{ 
+        padding: 0!important;
+      }
+      .container{
+        padding-left: 0!important;
+      }
+  }
+  @media (min-width: 1282px) {
+    body{
+      padding: 0!important;
+    }
     .columns {
 
       display: flex;

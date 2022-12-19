@@ -1,8 +1,6 @@
 <?php
 include "libs.php"
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,61 +15,12 @@ include "libs.php"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="node_modules\detective.css" />
+    <link rel="stylesheet" href="detective.css" />
     <title>JIHC</title>
   </head>
   <body>
-    <!--========== HEADER ==========-->
-    <header class="header">
-      <div class="header__container">
-        <div class="user">
-          <?php
-            if (check()) {
-              echo ' <a class="header__user" href="#">'.$_COOKIE['username'].'</a>';
-          } else {
-          echo ' <a class="header__user" href="login.php">Log in</a>';
-          }
-
-
-          ?>
-        </div>
-
-        <a href="index.php" class="header__logo"><span>inno</span>Book</a>
-
-        <div class="header__search">
-          <input
-            type="search"
-            placeholder="Search for books or authors..."
-            class="header__input"
-          />
-          <i class="bx bx-search header__icon"></i>
-        </div>
-
-        <div class="header__toggle">
-          <i class="bx bx-menu" id="header-toggle"></i>
-        </div>
-      </div>
-    </header>
-
-    <!--========== NAV ==========-->
-    <div class="nav" id="navbar">
-      <nav class="nav__container">
-        <div>
-          <a href="index.php" class="nav__link nav__logo">
-            <i class="bx bx-book-open nav__icon"></i>
-            <span class="nav__logo-name">
-              <span class="logo_inno">inno</span>Book
-            </span>
-          </a>
-
-          <div class="nav__list">
-            <div class="nav__items">
-              <h3 class="nav__subtitle">Discover</h3>
-
-              <a href="index.php" class="nav__link active">
-                <i class="bx bx-home nav__icon"></i>
                 <span class="nav__name">Home</span>
               </a>
 
@@ -86,14 +35,10 @@ include "libs.php"
               </a>
               <a href="coffee.html" class="nav__link">
               <i class="fa-solid fa-mug-hot" id="coff"></i>
+              <i class="fa-solid fa-mug-hot nav__icon" id="coff"></i>
                 <span class="nav__name">Coffee</span>
               </a>
             </div>
-
-            <div class="nav__items">
-              <h3 class="nav__subtitle">Library</h3>
-
-              <a href="allbooks.php" class="nav__link">
                 <i class="bx bx-book-alt nav__icon"></i>
                 <span class="nav__name">All books</span>
               </a>
@@ -108,17 +53,22 @@ include "libs.php"
               <a href="newbooks.php" class="nav__link">
                 <i class="bx bx-plus-circle nav__icon"></i>
                 <span class="nav__name">New books</span>
-              </a>
-            </div>
-          </div>
         </div>
 
         <a href="#" class="nav__link nav__logout">
+          <?php   
+          if (check()) {
+            echo '<a href="logout.php" class="nav__link nav__logout">
           <i class="bx bx-log-out nav__icon"></i>
           <span class="nav__name">Log Out</span>
+        </a>';
+          }
+         ?>
         </a>
       </nav>
     </div>
+
+    <!--========== CONTENTS ==========-->
  <div class="detective">
       <video src="detective.mp4" type="video/mp4" autoplay muted loop></video>
       <div class="effects"></div>
@@ -128,7 +78,42 @@ include "libs.php"
    </div>
     <section class="newbooks">
       <div class="container">
+      <div class="top_title">
+        <h3>Detective</h3>
+      </div>
       <div class="newbooks_items">
+        <a href="viewpage.php" class="newbook_item">
+          <img class="big_book" src="./assets/img/убийствоввосточномэкспрессе.jpg" alt="">
+          <div class="newbook_item-overlay">
+            <h5>Убийство в «Восточном экспрессе»</h5>
+            <h6>Агата Кристи</h6>
+            <div class="newbook_item-rateing">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star-half'></i>
+            </div>  
+            <button>View</button>
+            <button>Download now</button>
+          </div>
+        </a>
+        <a href="#!" class="newbook_item">
+          <img class="big_book" src="./assets/img/десятьнегритят.jpg" alt="">
+          <div class="newbook_item-overlay">
+            <h5>Десять негритят</h5>
+            <h6>Агата Кристи</h6>
+            <div class="newbook_item-rateing">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>  
+            <button>View</button>
+            <button>Download now</button>
+          </div>
+        </a>
       <a href="viewpage.html" class="newbook_item">
   <img class="big_book" src="./assets/img/убийствоввосточномэкспрессе.jpg" alt="">
   <div class="newbook_item-overlay">
@@ -256,9 +241,10 @@ include "libs.php"
     <button>Download now</button>
   </div>
 </a>
-        
+
       </div>
       </div>
+    </section>
       <hr style="border: 2px solid #339999;">
 </section>
 <div class="d_movies">
@@ -266,16 +252,16 @@ include "libs.php"
 </div>
 <div class="columns">
 <div class="column">
-  <video src="Шерлок. Чертоги разума. Ментальные карты.mp4" type="video/mp4" autoplay muted loop style="border-radius: 30px; width: 400px; height: 300px; margin-left: 70px;"></video>
+  <video src="Шерлок. Чертоги разума. Ментальные карты.mp4" type="video/mp4" autoplay muted loop style="border-radius: 30px; width: 400px; height: 300px;"></video>
   <br>
-  <a href="https://sherlock-online.ru/" style="margin-left: 70px;">Sherlock</a>
-  <h5 style="margin-left: 70px;">Sherlock is a British mystery crime drama television series based on Sir Arthur Conan Doyle's Sherlock Holmes detective stories.</h5>
+  <a href="https://sherlock-online.ru/" >Sherlock</a>
+  <h5 >Sherlock is a British mystery crime drama television series based on Sir Arthur Conan Doyle's Sherlock Holmes detective stories.</h5>
 </div>
 <div class="column">
   <video src="knives_out.mp4" type="video/mp4" autoplay muted loop style="border-radius: 10px; width: 400px; height: 300px;"></video>
   <br>
   <a href="https://kinobar.vip/18076-nozhi-nagolo-1-v9.html">Knives out</a>
-<h5>Knives Out is a 2019 American mystery film written and directed by Rian Johnson and produced by Johnson and Ram Bergman. It follows a master detective, Benoit Blanc, investigating the death of the patriarch of a wealthy, dysfunctional family. </h5>
+<h5>Knives Out is a 2019 American mystery film written and directed by Rian Johnson and produced by Johnson and Ram Bergman. </h5>
         </div>
         <div class="column">
           <video src="Murder_on_the_Orient_Express.mp4" type="video/mp4" autoplay muted loop style="border-radius: 10px; width: 400px; height: 300px;"></video>
@@ -305,7 +291,6 @@ include "libs.php"
         </div>
       </div>
     </section>
-
     <div class="footer">
       <div class="container">
         <a href="index.php"><span>inno</span>Book</a>
