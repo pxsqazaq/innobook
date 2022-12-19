@@ -21,7 +21,7 @@ include "libs.php"
     
     <title>JIHC</title>
   </head>
-  <body>
+  <body  style="background-image: url(trinity-library.jpg); background-size: cover; background-repeat: no-repeat;">
     <!--========== HEADER ==========-->
     <header class="header">
       <div class="header__container">
@@ -73,18 +73,12 @@ include "libs.php"
                 <i class="bx bx-home nav__icon"></i>
                 <span class="nav__name">Home</span>
               </a>
-
-              <a href="#" class="nav__link">
-                <i class="bx bx-heart nav__icon"></i>
-                <span class="nav__name">For you</span>
-              </a>
-
               <a href="#" class="nav__link">
                 <i class="bx bx-search nav__icon"></i>
                 <span class="nav__name">Browse</span>
               </a>
               <a href="coffee.html" class="nav__link">
-              <i class="fa-solid fa-mug-hot" id="coff"></i>
+              <i class="fa-solid fa-mug-hot nav__icon" id="coff"></i>
                 <span class="nav__name">Coffee</span>
               </a>
             </div>
@@ -96,14 +90,7 @@ include "libs.php"
                 <i class="bx bx-book-alt nav__icon"></i>
                 <span class="nav__name">All books</span>
               </a>
-              <a href="#" class="nav__link">
-                <i class="bx bx-list-ul nav__icon"></i>
-                <span class="nav__name">Top books</span>
-              </a>
-              <a href="#" class="nav__link">
-                <i class="bx bx-user nav__icon"></i>
-                <span class="nav__name">Authors</span>
-              </a>
+              
               <a href="newbooks.php" class="nav__link">
                 <i class="bx bx-plus-circle nav__icon"></i>
                 <span class="nav__name">New books</span>
@@ -113,8 +100,14 @@ include "libs.php"
         </div>
 
         <a href="#" class="nav__link nav__logout">
+          <?php   
+          if (check()) {
+            echo '<a href="logout.php" class="nav__link nav__logout">
           <i class="bx bx-log-out nav__icon"></i>
           <span class="nav__name">Log Out</span>
+        </a>';
+          }
+         ?>
         </a>
       </nav>
     </div>
@@ -122,11 +115,8 @@ include "libs.php"
     <!--========== CONTENTS ==========-->
     <section class="newbooks">
       <div class="container">
-      <div class="top_title">
-        <h3>Fantasy</h3>
-      </div>
       <div class="newbooks_items">
-        <a href="#!" class="newbook_item">
+          <a href="viewpage.html" class="newbook_item">
             <img class="big_book" src="./assets/img/alittleprincess .jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>A Little Princess</h5>
@@ -136,13 +126,13 @@ include "libs.php"
                 <i class='bx bxs-star'></i>
                 <i class='bx bxs-star'></i>
                 <i class='bx bxs-star'></i>
-                <i class='bx bx-star'></i>
+                <i class='bx bxs-star-half'></i>
               </div>  
               <button>View</button>
               <button>Download now</button>
             </div>
           </a>
-          <a href="#!" class="newbook_item">
+          <a href="viewpage.html" class="newbook_item">
             <img class="big_book" src="./assets/img/christmasinprague.jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>Christmas In Prague</h5>
@@ -158,9 +148,106 @@ include "libs.php"
               <button>Download now</button>
             </div>
           </a>
+          <a href="viewpage.html" class="newbook_item">
+            <img class="big_book" src="./assets/img/великий_гэтсби.jpg" alt="">
+            <div class="newbook_item-overlay">
+              <h5>Великий Гэтсби</h5>
+              <h6>Ф.С.Фицджеральд</h6>
+              <div class="newbook_item-rateing">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>              
+                <i class='bx bx-star'></i>
+              </div>  
+              <button>View</button>
+              <button>Download now</button>
+            </div>
+          </a>
+          <a href="viewpage.html" class="newbook_item">
+            <img class="big_book" src="./assets/img/унесенные_ветром_том1.jpg" alt="">
+            <div class="newbook_item-overlay">
+              <h5>Унесенные ветром</h5>
+              <h6>Маргарет Митчелл</h6>
+              <div class="newbook_item-rateing">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>              
+                <i class='bx bx-star'></i>
+              </div>  
+              <button>View</button>
+              <button>Download now</button>
+            </div>
+          </a>
+          <a href="viewpage.html" class="newbook_item">
+            <img class="big_book" src="./assets/img/портретдориана.jpg" alt="">
+            <div class="newbook_item-overlay">
+              <h5>Портрет Дориана Грея</h5>
+              <h6>Оскар Уайльд</h6>
+              <div class="newbook_item-rateing">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>              
+                <i class='bx bx-star'></i>
+              </div>  
+              <button>View</button>
+              <button>Download now</button>
+            </div>
+          </a>
+          <a href="viewpage.html" class="newbook_item">
+            <img class="big_book" src="./assets/img/тритоварища.jpg" alt="">
+            <div class="newbook_item-overlay">
+              <h5>Три товарища</h5>
+              <h6>Эрих Мария Ремарк</h6>
+              <div class="newbook_item-rateing">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>              
+                <i class='bx bx-star'></i>
+              </div>  
+              <button>View</button>
+              <button>Download now</button>
+            </div>
+          </a>
+          <a href="viewpage.html" class="newbook_item">
+            <img class="big_book" src="./assets/img/цветыдляэлджернона.jpg" alt="">
+            <div class="newbook_item-overlay">
+              <h5>Цветы для Элджернона</h5>
+              <h6>Дэниел Киз</h6>
+              <div class="newbook_item-rateing">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>              
+                <i class='bx bx-star'></i>
+              </div>  
+              <button>View</button>
+              <button>Download now</button>
+            </div>
+          </a>
+          <a href="viewpage.html" class="newbook_item">
+            <img class="big_book" src="./assets/img/отверженные.jpg" alt="">
+            <div class="newbook_item-overlay">
+              <h5>Отверженные</h5>
+              <h6>Виктор Гюго</h6>
+              <div class="newbook_item-rateing">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>              
+                <i class='bx bx-star'></i>
+              </div>  
+              <button>View</button>
+              <button>Download now</button>
+            </div>
+          </a>
       </div>
       </div>
     </section>
+
 
     <section class="page_numbers">  
       <div class="container">

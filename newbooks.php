@@ -73,18 +73,12 @@ include "libs.php"
                 <i class="bx bx-home nav__icon"></i>
                 <span class="nav__name">Home</span>
               </a>
-
-              <a href="#" class="nav__link">
-                <i class="bx bx-heart nav__icon"></i>
-                <span class="nav__name">For you</span>
-              </a>
-
               <a href="#" class="nav__link">
                 <i class="bx bx-search nav__icon"></i>
                 <span class="nav__name">Browse</span>
               </a>
               <a href="coffee.html" class="nav__link">
-              <i class="fa-solid fa-mug-hot" id="coff"></i>
+              <i class="fa-solid fa-mug-hot nav__icon" id="coff"></i>
                 <span class="nav__name">Coffee</span>
               </a>
             </div>
@@ -95,14 +89,6 @@ include "libs.php"
               <a href="allbooks.php" class="nav__link">
                 <i class="bx bx-book-alt nav__icon"></i>
                 <span class="nav__name">All books</span>
-              </a>
-              <a href="#" class="nav__link">
-                <i class="bx bx-list-ul nav__icon"></i>
-                <span class="nav__name">Top books</span>
-              </a>
-              <a href="#" class="nav__link">
-                <i class="bx bx-user nav__icon"></i>
-                <span class="nav__name">Authors</span>
               </a>
               <a href="newbooks.php" class="nav__link active">
                 <i class="bx bx-plus-circle nav__icon"></i>

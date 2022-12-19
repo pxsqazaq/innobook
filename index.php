@@ -5,6 +5,10 @@ include "libs.php"
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <link
+      rel="stylesheet"
+      href="assets/css/style.css?jwewgf=dasdasd"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -15,7 +19,8 @@ include "libs.php"
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -82,17 +87,14 @@ include "libs.php"
                 <span class="nav__name">Home</span>
               </a>
 
-              <a href="#" class="nav__link">
-                <i class="bx bx-heart nav__icon"></i>
-                <span class="nav__name">For you</span>
-              </a>
+              
 
               <a href="#" class="nav__link">
                 <i class="bx bx-search nav__icon"></i>
                 <span class="nav__name">Browse</span>
               </a>
               <a href="coffee.html" class="nav__link">
-              <i class="fa-solid fa-mug-hot" id="coff"></i>
+              <i class="fa-solid fa-mug-hot nav__icon" id="coff"></i>
                 <span class="nav__name">Coffee</span>
               </a>
             </div>
@@ -103,14 +105,6 @@ include "libs.php"
               <a href="allbooks.php" class="nav__link">
                 <i class="bx bx-book-alt nav__icon"></i>
                 <span class="nav__name">All books</span>
-              </a>
-              <a href="#" class="nav__link">
-                <i class="bx bx-list-ul nav__icon"></i>
-                <span class="nav__name">Top books</span>
-              </a>
-              <a href="#" class="nav__link">
-                <i class="bx bx-user nav__icon"></i>
-                <span class="nav__name">Authors</span>
               </a>
               <a href="newbooks.php" class="nav__link">
                 <i class="bx bx-plus-circle nav__icon"></i>
@@ -133,7 +127,7 @@ include "libs.php"
 
     <!--========== CONTENTS ==========-->
     <scetion class="genre">
-      <div class="container" >
+      <div class="container">
         <div class="top_title">
           <h3>Subject books</h3>
         </div>
@@ -180,9 +174,6 @@ include "libs.php"
 
     <section class="newbooks">
       <div class="container">
-      <div class="top_title">
-        <h3>New books</h3>
-      </div>
       <div class="newbooks_items">
         <a href="viewpage.php" class="newbook_item">
           <img class="big_book" src="./assets/img/harrypotter.jpg" alt="">

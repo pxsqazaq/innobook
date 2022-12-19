@@ -1,5 +1,12 @@
-.coffeeMap{
-    display: flex;
+.photos{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+body{
+    padding: 0!important;
+    margin: 0!important;
+    overflow-x: hidden;
 }
 .sizeOfCoffee{
     width:400px;
@@ -13,7 +20,7 @@
 }
 .text{
     padding-left: 30px;
-    padding:10px 0px 30px 10px;
+    padding:0 0 0 10px;
   
 }
 .color{
@@ -50,7 +57,106 @@
 .arrow{
     color:#339999;
 }
-.all{
+.all_items{
     display: flex;
     flex-direction: column;
+}
+
+ /* .video-bg {
+    width: 100%!important;
+} */
+
+.video-bg {
+    height: 100vh;
+    width: 108.8%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: -124px;
+    margin-top: -33px;
+}
+.video-bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.effects {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+}
+.video-bg__content {
+    z-index: 2;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 1100px) {
+    .video-bg {
+        width: 100%;
+    }
+
+    .containerr {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .video-bg {
+        width: 108.8vw;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .video-bg {
+        width: 112.1vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .video-bg img {
+        height: 100vh!important;
+    }
+    .video-bg {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .photos{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .blue {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .header__user,
+    .newbook_item-rateing,
+    .header__user,
+    .sizeOfCoffee {
+        padding-left: 10px;
+    }
+    .color{
+        margin-left: 10px;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .text hr {
+        width: 100%!important;
+    }
 }

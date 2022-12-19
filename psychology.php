@@ -20,7 +20,7 @@ include "libs.php"
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="psychology.css">
+    <link rel="stylesheet" href="psychology.css?jhkjhk=ghmghgh">
     <title>JIHC</title>
   </head>
   <body>
@@ -77,16 +77,11 @@ include "libs.php"
               </a>
 
               <a href="#" class="nav__link">
-                <i class="bx bx-heart nav__icon"></i>
-                <span class="nav__name">For you</span>
-              </a>
-
-              <a href="#" class="nav__link">
                 <i class="bx bx-search nav__icon"></i>
                 <span class="nav__name">Browse</span>
               </a>
               <a href="coffee.html" class="nav__link">
-              <i class="fa-solid fa-mug-hot" id="coff"></i>
+              <i class="fa-solid fa-mug-hot nav__icon" id="coff"></i>
                 <span class="nav__name">Coffee</span>
               </a>
             </div>
@@ -98,14 +93,7 @@ include "libs.php"
                 <i class="bx bx-book-alt nav__icon"></i>
                 <span class="nav__name">All books</span>
               </a>
-              <a href="#" class="nav__link">
-                <i class="bx bx-list-ul nav__icon"></i>
-                <span class="nav__name">Top books</span>
-              </a>
-              <a href="#" class="nav__link">
-                <i class="bx bx-user nav__icon"></i>
-                <span class="nav__name">Authors</span>
-              </a>
+              
               <a href="newbooks.php" class="nav__link">
                 <i class="bx bx-plus-circle nav__icon"></i>
                 <span class="nav__name">New books</span>
@@ -122,7 +110,7 @@ include "libs.php"
     </div>
 
     <!--========== CONTENTS ==========-->
-    <div class="video-bg" style="margin-bottom:50px ;">
+    <div class="video-bg">
       <video src="video-bg.mp4" type="video/mp4" autoplay muted loop></video>
       <div class="effects"></div>
       <div class="video-bg__content">
@@ -268,24 +256,28 @@ include "libs.php"
 
     <hr style="width:80%;background-color: #339999;border-width: 0px;height: 1px;">
     <div class="course">
-      <div class="courseText">
-        <a href="https://psy-practice.com/" target="_blank">Psy-practice</a>
-        <br>
-        
-        A very useful resource where you can not only read articles on psychology and psychotherapy
+      <div class="container">
+        <div class="coursetext-items" style="display:flex; justify-content:space-evenly;">
+            <div class="courseText">
+              <a href="https://psy-practice.com/" target="_blank">Psy-practice</a>
+              <br>
+              
+              A very useful resource where you can not only read articles on psychology and psychotherapy
+          </div>
+          <div class="hrp"></div>
+          <div class="courseText">
+              <a href="https://monocler.ru/category/psychology/" target="_blank"> Monocler</a>
+              <br>
+              Thematic section of a class resource about culture, man and society.
+          </div>
+          <div class="hrp"></div>
+          <div class="courseText">
+              <a href="http://psychologytoday.ru/" target="_blank"> Psychology today</a>
+              <br>
+              An online magazine dedicated to your favorite subject - yourself.
+          </div>
+        </div>
       </div>
-      <div class="hrp"></div>
-      <div class="courseText">
-        <a href="https://monocler.ru/category/psychology/" target="_blank"> Monocler</a>
-        <br>
-Thematic section of a class resource about culture, man and society.
-      </div>
-      <div class="hrp"></div>
-      <div class="courseText">
-        <a href="http://psychologytoday.ru/" target="_blank"> Psychology today</a>
-        <br>
-        An online magazine dedicated to your favorite subject - yourself.
-       </div>
     </div>
   
     <section class="page_numbers">  

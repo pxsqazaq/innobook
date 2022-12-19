@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body {
+    overflow-x: hidden;
+}
 
-/* body {
-    font-family: 'Poppins';
-    margin: 0;
-    padding: 0;
-} */
 .video-bg {
     height: 100vh;
-    width: 100%;
+    width: 114.8%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-left: -124px;
+    margin-top: -33px;
 }
 .video-bg video {
     position: absolute;
@@ -47,11 +47,6 @@
 .black{
     color: rgba(255, 255, 255, 0.693);
 }
-.course{
-    display: flex;
-    width: 90%;
-    margin: 0px 30px 0px 150px;
-}
 .courseText{
     width:30%;
 }
@@ -62,4 +57,66 @@
     margin:10px 20px 0px 20px;
    
    
+}
+
+@media screen and (max-width: 1400px) {
+    .video-bg {
+        width: 95.1vw;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .video-bg {
+        width: 93.5vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .video-bg {
+        margin-left: 0;
+        width: 100%;
+    }
+    .newbook_item {
+        padding-right: 10px;
+    }
+
+    .coursetext-items {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .coursetext-items  .hrp {
+        display: none;
+    }
+
+    .courseText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        text-align: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .courseText::after {
+        content: '';
+        position: absolute;
+        margin-top: 120px;
+        width: 30%;
+        height: 1px;
+        background-color: black;
+    }
+
+    .courseText:last-child::after{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .newbook_item {
+        padding-right: 0;
+    }
 }
