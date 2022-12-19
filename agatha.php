@@ -107,7 +107,7 @@
       <section class="viewbook">
         <div class="container">
             <div class="viewbook_link">
-                <a href="newbooks.html">New Books</a>
+                <a href="newbooks.php">New Books</a>
                 <span>/</span>
                 <a href="agatha.php">Убийство в «Восточном экспрессе»</a>   
             </div>
@@ -178,7 +178,7 @@
 
     <div class="footerwhite">
       <div class="container">
-        <a href="index.html"><span>inno</span>Book</a>
+        <a href="index.php"><span>inno</span>Book</a>
       </div>
     </div>
     <!--========== MAIN JS ==========-->
@@ -186,3 +186,4 @@
     <script src="assets/js/main.js"></script>
   </body>
 </html>
+

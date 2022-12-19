@@ -47,6 +47,14 @@ body {
 .black{
     color: rgba(255, 255, 255, 0.693);
 }
+<<<<<<< HEAD
+.course{
+    display: flex;
+    width: 90%;
+    margin: 0px 30px 0px 70px;
+}
+=======
+>>>>>>> 191e66e011a919f4866b47f397188c619b03d56c
 .courseText{
     width:30%;
 }

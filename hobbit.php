@@ -109,30 +109,31 @@
             <div class="viewbook_link">
                 <a href="newbooks.php">New Books</a>
                 <span>/</span>
-                <a href="agatha1.php">Десять негритят</a>   
+                <a href="hobbit.php">Hobbit</a>   
             </div>
             <div class="about_book">
                 <div class="about_book-img">
-                    <img class="verybig_img" src="./assets/img/десятьнегритят.jpg" alt="">
+                    <img class="verybig_img" src="./assets/img/thehobbit.jpg" alt="">
                 </div>
                 <div class="about_book-text">
                     <div class="about_book-title">
-                        <h2>Десять негритят</h2>
+                        <h2>Хоббит</h2>
                         <a href="#!"><i class='bx bx-heart'></i></a>
                     </div>
-                    <h3>Агата Кристи,1939</h3>
+                    <h3>Дж.Р.Р.Толкин, 1937</h3>
                     <div class="about_book-rateing">
                         <i class='bx bxs-star'></i>
                         <i class='bx bxs-star'></i>
                         <i class='bx bxs-star'></i>
                         <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
                     </div>
-                    <p>Действие происходит в конце 1930-х годов на небольшом Негритянском острове[1] вблизи побережья Девона. 8 августа восемь абсолютно незнакомых друг с другом людей из разных слоёв общества приезжают на остров по приглашению мистера и миссис А. Н. Оним (Алек Норман Оним и Анна Нэнси Оним). Самих Онимов на острове нет, гостей встречает супружеская пара слуг — дворецкий и кухарка. На столе в гостиной стоит поднос с десятью фарфоровыми негритятами, а на стене в комнате у каждого из гостей висит детская считалка, напоминающая «Десять зелёных бутылок»</p>
-                </div>
+                <p>повесть английского писателя Джона Р. Р. Толкина. Впервые опубликована в 1937 году издательством George Allen & Unwin, став со временем классикой детской литературы. В основе сюжета — путешествие хоббита Бильбо Бэггинса, волшебника Гэндальфа и тринадцати гномов во главе с Торином Дубощитом. Их путь лежит к Одинокой Горе, где находятся гномьи сокровища, охраняемые драконом Смаугом.</p>               
+         </div>
             </div>
+      
             <div class="viewbook_downloadbtn">
-                <a href="./assets/books/Убийство в «Восточном экспрессе». Агата Кристи.pdf" download>Download PDF</a>
+                <a href="./assets/books/Хоббит, или Туда И Обратно Джон Рональд Руэл Толкин.pdf" download>Download PDF</a>
             </div>
         </div>
     </section>

@@ -109,30 +109,30 @@
             <div class="viewbook_link">
                 <a href="newbooks.php">New Books</a>
                 <span>/</span>
-                <a href="agatha1.php">Десять негритят</a>   
+                <a href="harry.php">Harry Potter</a>   
             </div>
             <div class="about_book">
                 <div class="about_book-img">
-                    <img class="verybig_img" src="./assets/img/десятьнегритят.jpg" alt="">
+                    <img class="verybig_img" src="./assets/img/harrypotter.jpg" alt="">
                 </div>
                 <div class="about_book-text">
                     <div class="about_book-title">
-                        <h2>Десять негритят</h2>
+                        <h2>Гарри Поттер</h2>
                         <a href="#!"><i class='bx bx-heart'></i></a>
                     </div>
-                    <h3>Агата Кристи,1939</h3>
+                    <h3>Дж.К.Роулинг, 1997</h3>
                     <div class="about_book-rateing">
                         <i class='bx bxs-star'></i>
                         <i class='bx bxs-star'></i>
                         <i class='bx bxs-star'></i>
                         <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
                     </div>
-                    <p>Действие происходит в конце 1930-х годов на небольшом Негритянском острове[1] вблизи побережья Девона. 8 августа восемь абсолютно незнакомых друг с другом людей из разных слоёв общества приезжают на остров по приглашению мистера и миссис А. Н. Оним (Алек Норман Оним и Анна Нэнси Оним). Самих Онимов на острове нет, гостей встречает супружеская пара слуг — дворецкий и кухарка. На столе в гостиной стоит поднос с десятью фарфоровыми негритятами, а на стене в комнате у каждого из гостей висит детская считалка, напоминающая «Десять зелёных бутылок»</p>
+                    <p>Одиннадцатилетний мальчик-сирота Гарри Поттер живет в семье своей тетки и даже не подозревает, что он - настоящий волшебник. Но однажды прилетает сова с письмом для него, и жизнь Гарри Поттера изменяется навсегда. Он узнает, что зачислен в Школу Чародейства и Волшебства, выясняет правду о загадочной смерти своих родителей, а в результате ему удается раскрыть секрет философского камня.</p>
                 </div>
             </div>
             <div class="viewbook_downloadbtn">
-                <a href="./assets/books/Убийство в «Восточном экспрессе». Агата Кристи.pdf" download>Download PDF</a>
+                <a href="./assets/books/Гарри Поттер и философский камень.pdf" download>Download PDF</a>
             </div>
         </div>
     </section>

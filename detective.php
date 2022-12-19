@@ -21,6 +21,47 @@ include "libs.php"
     <title>JIHC</title>
   </head>
   <body>
+    <!--========== HEADER ==========-->
+    <header class="header">
+      <div class="header__container">
+        <div class="user">
+          <?php
+            if (check()) {
+              echo ' <a class="header__user" href="#">'.$_COOKIE['username'].'</a>';
+          } else {
+          echo ' <a class="header__user" href="login.php">Log in</a>';
+          }
+          ?>
+        </div>
+        <a href="index.php" class="header__logo"><span>inno</span>Book</a>
+        <div class="header__search">
+          <input
+            type="search"
+            placeholder="Search for books or authors..."
+            class="header__input"
+          />
+          <i class="bx bx-search header__icon"></i>
+        </div>
+        <div class="header__toggle">
+          <i class="bx bx-menu" id="header-toggle"></i>
+        </div>
+      </div>
+    </header>
+    <!--========== NAV ==========-->
+    <div class="nav" id="navbar">
+      <nav class="nav__container">
+        <div>
+          <a href="index.php" class="nav__link nav__logo">
+            <i class="bx bx-book-open nav__icon"></i>
+            <span class="nav__logo-name">
+              <span class="logo_inno">inno</span>Book
+            </span>
+          </a>
+          <div class="nav__list">
+            <div class="nav__items">
+              <h3 class="nav__subtitle">Discover</h3>
+              <a href="index.php" class="nav__link active">
+                <i class="bx bx-home nav__icon"></i>
                 <span class="nav__name">Home</span>
               </a>
 
@@ -33,12 +74,18 @@ include "libs.php"
                 <span class="nav__name">Coffee</span>
               </a>
             </div>
+            <div class="nav__items">
+              <h3 class="nav__subtitle">Library</h3>
+              <a href="allbooks.php" class="nav__link">
                 <i class="bx bx-book-alt nav__icon"></i>
                 <span class="nav__name">All books</span>
               </a>
               <a href="newbooks.php" class="nav__link">
                 <i class="bx bx-plus-circle nav__icon"></i>
                 <span class="nav__name">New books</span>
+              </a>
+            </div>
+          </div>
         </div>
 
         <a href="#" class="nav__link nav__logout">
@@ -53,7 +100,6 @@ include "libs.php"
         </a>
       </nav>
     </div>
-
  <div class="detective">
       <video src="detective.mp4" type="video/mp4" autoplay muted loop></video>
       <div class="effects"></div>
@@ -64,21 +110,21 @@ include "libs.php"
     <section class="newbooks">
       <div class="container">
       <div class="newbooks_items">
-        <a href="agatha.php" class="newbook_item">
-          <img class="big_book" src="./assets/img/убийствоввосточномэкспрессе.jpg" alt="">
-          <div class="newbook_item-overlay">
-            <h5>Убийство в «Восточном экспрессе»</h5>
-            <h6>Агата Кристи</h6>
-            <div class="newbook_item-rateing">
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star-half'></i>
-            </div>  
-            <button>View</button>
-          </div>
-        </a>
+      <a href="agatha.php" class="newbook_item">
+  <img class="big_book" src="./assets/img/убийствоввосточномэкспрессе.jpg" alt="">
+  <div class="newbook_item-overlay">
+    <h5>Убийство в «Восточном экспрессе»</h5>
+    <h6>Агата Кристи</h6>
+    <div class="newbook_item-rateing">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half'></i>
+    </div>  
+    <button>View</button>
+  </div>
+</a>
 <a href="agatha1.php" class="newbook_item">
   <img class="big_book" src="./assets/img/десятьнегритят.jpg" alt="">
   <div class="newbook_item-overlay">
@@ -93,7 +139,7 @@ include "libs.php"
     </div>  
     <button>View</button>
   </div>
-  <a href="#!" class="newbook_item">
+  <a href="snowman.php" class="newbook_item">
   <img class="big_book" src="./assets/img/снеговик.jpg" alt="">
   <div class="newbook_item-overlay">
     <h5>Снеговик</h5>
@@ -106,10 +152,9 @@ include "libs.php"
       <i class='bx bxs-star-half'></i>
     </div>  
     <button>View</button>
-    <button>Download now</button>
   </div>
 </a>
-<a href="#!" class="newbook_item">
+<a href="dan.php" class="newbook_item">
   <img class="big_book" src="./assets/img/происхождение.jpg" alt="">
   <div class="newbook_item-overlay">
     <h5>Происхождение</h5>
@@ -122,10 +167,9 @@ include "libs.php"
       <i class='bx bxs-star'></i>
     </div>  
     <button>View</button>
-    <button>Download now</button>
   </div>
 </a>
-<a href="#!" class="newbook_item">
+<a href="mercedes.php" class="newbook_item">
   <img class="big_book" src="./assets/img/мистер_мерседес.jpg" alt="">
   <div class="newbook_item-overlay">
     <h5>Мистер Мерседес</h5>
@@ -138,10 +182,9 @@ include "libs.php"
       <i class='bx bxs-star'></i>
     </div>  
     <button>View</button>
-    <button>Download now</button>
   </div>
 </a>
-<a href="#!" class="newbook_item">
+<a href="patient.php" class="newbook_item">
   <img class="big_book" src="./assets/img/безмолвный пациент.jpg" alt="">
   <div class="newbook_item-overlay">
     <h5>Безмолвный пациент</h5>
@@ -154,10 +197,9 @@ include "libs.php"
       <i class='bx bxs-star'></i>
     </div>  
     <button>View</button>
-    <button>Download now</button>
   </div>
 </a>
-<a href="#!" class="newbook_item">
+<a href="steven.php" class="newbook_item">
   <img class="big_book" src="./assets/img/побег.jpg" alt="">
   <div class="newbook_item-overlay">
     <h5>РИТА ХЕЙУОРТ ИЛИ ПОБЕГ ИЗ ШОУШЕНКА</h5>
@@ -170,10 +212,9 @@ include "libs.php"
       <i class='bx bxs-star'></i>
     </div>  
     <button>View</button>
-    <button>Download now</button>
   </div>
 </a>
-<a href="#!" class="newbook_item">
+<a href="arthur.php" class="newbook_item">
   <img class="big_book" src="./assets/img/этюд.jpg" alt="">
   <div class="newbook_item-overlay">
     <h5>Этюд в багровых тонах</h5>
@@ -186,12 +227,12 @@ include "libs.php"
       <i class='bx bxs-star'></i>
     </div>  
     <button>View</button>
-    <button>Download now</button>
   </div>
 </a>
 
       </div>
       </div>
+    
       <hr style="border: 2px solid #339999;">
 </section>
 <div class="d_movies">

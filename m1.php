@@ -103,36 +103,40 @@
          ?>
       </nav>
     </div>
-      <!--========== CONTENTS ==========-->
-      <section class="viewbook">
+
+    <!--========== CONTENTS ==========-->
+    
+    <section class="viewbook">
         <div class="container">
             <div class="viewbook_link">
-                <a href="newbooks.php">New Books</a>
-                <span>/</span>
-                <a href="agatha1.php">Десять негритят</a>   
+                
+               
+                <a href="viewpage.php"></a>
             </div>
             <div class="about_book">
                 <div class="about_book-img">
-                    <img class="verybig_img" src="./assets/img/десятьнегритят.jpg" alt="">
+                    <img class="verybig_img" src="./assets/img/взломмаркетинга.jpg" alt="">
                 </div>
                 <div class="about_book-text">
                     <div class="about_book-title">
-                        <h2>Десять негритят</h2>
+                        <h2>Взлом Маркетинга</h2>
                         <a href="#!"><i class='bx bx-heart'></i></a>
                     </div>
-                    <h3>Агата Кристи,1939</h3>
+                    <h3>фил барден</h3>
                     <div class="about_book-rateing">
                         <i class='bx bxs-star'></i>
                         <i class='bx bxs-star'></i>
                         <i class='bx bxs-star'></i>
                         <i class='bx bxs-star'></i>
-                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
                     </div>
-                    <p>Действие происходит в конце 1930-х годов на небольшом Негритянском острове[1] вблизи побережья Девона. 8 августа восемь абсолютно незнакомых друг с другом людей из разных слоёв общества приезжают на остров по приглашению мистера и миссис А. Н. Оним (Алек Норман Оним и Анна Нэнси Оним). Самих Онимов на острове нет, гостей встречает супружеская пара слуг — дворецкий и кухарка. На столе в гостиной стоит поднос с десятью фарфоровыми негритятами, а на стене в комнате у каждого из гостей висит детская считалка, напоминающая «Десять зелёных бутылок»</p>
+                    <p>В этой книге поведение потребителей анализируется с помощью современной науки о принятии решений. Автор рассказывает о том, почему люди совершают покупки, что происходит в сознании покупателя, когда он принимает решение, и как можно использовать последние научные знания в своей маркетинговой деятельности.</p>
                 </div>
             </div>
             <div class="viewbook_downloadbtn">
-                <a href="./assets/books/Убийство в «Восточном экспрессе». Агата Кристи.pdf" download>Download PDF</a>
+                
+                <a href="assets/books/Взлом_маркетинга_Наука_о_том_почему_мы_покупаем_txt.txt" download>Download PDF</a>
+               
             </div>
         </div>
     </section>
@@ -174,7 +178,6 @@
         </div>
       </div>
     </section>
-    
 
     <div class="footerwhite">
       <div class="container">
@@ -186,4 +189,3 @@
     <script src="assets/js/main.js"></script>
   </body>
 </html>
-
