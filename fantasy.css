@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body {
+  /* padding-left: 160px!important; */
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+  .column_f p{
+    width: 300px!important;
+    height: 350px!important;
+    
+  }
+  .gif{
+    padding-top: 100px;
+    /* padding-left: 30px; */
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .column_f{
+    flex: 33,33%;
+  }
+  .newbooks_items{
+    padding-left: 100px;
+  }
+  /* .column_f {
+    width: 100%;
+  } */
+  @media (max-width: 1400px) {
+    body{
+      padding: 0!important;
+    }
+  }
+  @media (max-width: 1100px) {
+    .newbooks_items{
+      padding-left: 60px;
+    }
+    body{
+      padding: 0!important;
+    }
+  }
+  @media (max-width: 934px) {
+
+    .gif{
+      /* padding-left: 60px; */
+      flex-wrap: wrap;
+    }
+    }
+  @media (max-width: 563px) {
+      .newbooks{
+        padding-left: 10px!important;
+        justify-content: center;
+      }
+  }
+  @media (min-width: 48em) {
+    .columns_f {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+    }
+  }
