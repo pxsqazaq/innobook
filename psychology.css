@@ -50,7 +50,7 @@ body {
 .course{
     display: flex;
     width: 90%;
-    margin: 0px 30px 0px 150px;
+    margin: 0px 30px 0px 70px;
 }
 .courseText{
     width:30%;
