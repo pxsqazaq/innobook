@@ -32,7 +32,7 @@ img {
   
   max-width: 1350px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 5px 5px 5px 20px;
 }
 /*========== HEADER ==========*/
 .header {
@@ -693,11 +693,16 @@ img {
     padding: 3rem 3rem 0 12rem !important;
   } */
 .newbooks_items{
-  padding-left: 20px;
+  padding-left: 100px;
 }
   .item{
     width: 235px;
     height: 160px;
+  }
+  .course{
+    
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -708,6 +713,11 @@ img {
 
   .headergreen__search {
     width: 70%;
+  }
+  .course{
+    
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -776,6 +786,9 @@ img {
 .newbooks_items{
   padding-left: 3rem 3rem 0 2rem !important;
 }
+.course{
+  padding-left: 3rem 3rem 0 2rem !important;
+}
   .top_title h3{
     text-align: center;
   }
@@ -798,11 +811,21 @@ img {
     justify-content: space-around;
     display: flex;
   }
+  .course{
+    
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 480px){
   .newbooks_items{
     justify-content: center;
+  }
+  .course{
+    
+    display: flex;
+    flex-direction: column;
   }
 
   .page_back a{
@@ -825,6 +848,7 @@ img {
   .newbooks_items{
     padding-left: 20px;
   }
+
   .header {
     padding: 0 3rem 0 5rem;
   }

@@ -133,7 +133,7 @@ include "libs.php"
 
     <!--========== CONTENTS ==========-->
     <scetion class="genre">
-      <div class="container">
+      <div class="container" >
         <div class="top_title">
           <h3>Subject books</h3>
         </div>
