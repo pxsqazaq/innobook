@@ -118,50 +118,149 @@ include "libs.php"
         </a>
       </nav>
     </div>
+    <div class="columns_f" style="   display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;">
+         <div class="column_f">
+          <p style="text-align:center; width: 380px;height:200px;"><img src="./assets/img/dr_transparent.gif"  alt=""></p></div>
+          <div class="column_f"> <p style="text-align:center;width: 380px;height:200px;"><img src="./assets/img/dr_tr2.gif"  alt=""></p>
+         </div>
+         <div class="column_f"> <p style="text-align:center;width: 380px;height:200px;"><img src="./assets/img/dr-tr4.webp"  alt=""></p>
+         </div>
 
     <!--========== CONTENTS ==========-->
     <section class="newbooks">
-      <div class="container">
-      <div class="top_title">
-        <h3>Fantasy</h3>
-      </div>
-      <div class="newbooks_items">
-        <a href="viewpage.php" class="newbook_item">
-            <img class="big_book" src="./assets/img/harrypotter.jpg" alt="">
-            <div class="newbook_item-overlay">
-              <h5>Harry Potter</h5>
-              <h6>J.K.ROWLING</h6>
-              <div class="newbook_item-rateing">
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star-half'></i>
-              </div>  
-              <button>View</button>
-              <button>Download now</button>
-            </div>
-          </a>
-          <a href="#!" class="newbook_item">
-            <img class="big_book" src="./assets/img/thehobbit.jpg" alt="">
-            <div class="newbook_item-overlay">
-              <h5>The Hobbit</h5>
-              <h6>J.R.R. TOLKIEN</h6>
-              <div class="newbook_item-rateing">
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star-half'></i>
-              </div>  
-              <button>View</button>
-              <button>Download now</button>
-            </div>
-          </a>
-        
-      </div>
-      </div>
-    </section>
+     
+     <div class="newbooks_items">
+       <a href="viewpage.html" class="newbook_item">
+           <img class="big_book" src="./assets/img/harrypotter.jpg" alt="">
+           <div class="newbook_item-overlay">
+             <h5>Harry Potter</h5>
+             <h6>J.K.ROWLING</h6>
+             <div class="newbook_item-rateing">
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star-half'></i>
+             </div>  
+             <button>View</button>
+             <button>Download now</button>
+           </div>
+         </a>
+         <a href="#!" class="newbook_item">
+           <img class="big_book" src="./assets/img/thehobbit.jpg" alt="">
+           <div class="newbook_item-overlay">
+             <h5>The Hobbit</h5>
+             <h6>J.R.R. TOLKIEN</h6>
+             <div class="newbook_item-rateing">
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+             </div>  
+             <button>View</button>
+             <button>Download now</button>
+           </div>
+         </a>
+         <a href="viewpage.html" class="newbook_item">
+           <img class="big_book" src="./assets/img/witcher.jpg" alt="">
+           <div class="newbook_item-overlay">
+             <h5>Ведьмак</h5>
+             <h6>Анджей Сапковский</h6>
+             <div class="newbook_item-rateing">
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star-half'></i>
+             </div>  
+             <button>View</button>
+             <button>Download now</button>
+           </div>
+         </a>
+         <a href="#!" class="newbook_item">
+           <img class="big_book" src="./assets/img/перси.jpg" alt="">
+           <div class="newbook_item-overlay">
+             <h5>Перси Джексон и лабиринт смерти</h5>
+             <h6>Рик Риордан</h6>
+             <div class="newbook_item-rateing">
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+             </div>  
+             <button>View</button>
+             <button>Download now</button>
+           </div>
+         </a>
+         <a href="viewpage.html" class="newbook_item">
+           <img class="big_book" src="./assets/img/колдун.jpg" alt="">
+           <div class="newbook_item-overlay">
+             <h5>Колдун и кристалл</h5>
+             <h6>Стивен Кинг</h6>
+             <div class="newbook_item-rateing">
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star-half'></i>
+             </div>  
+             <button>View</button>
+             <button>Download now</button>
+           </div>
+         </a>
+         <a href="#!" class="newbook_item">
+           <img class="big_book" src="./assets/img/шестеркаворонов.jpg" alt="">
+           <div class="newbook_item-overlay">
+             <h5>Шестерка воронов</h5>
+             <h6>Ли Бардуго</h6>
+             <div class="newbook_item-rateing">
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star-half'></i>
+             </div>  
+             <button>View</button>
+             <button>Download now</button>
+           </div>
+         </a>
+         <a href="viewpage.html" class="newbook_item">
+           <img class="big_book" src="./assets/img/пир.jpg" alt="">
+           <div class="newbook_item-overlay">
+             <h5>Пир стервятников</h5>
+             <h6>Джордж Мартин</h6>
+             <div class="newbook_item-rateing">
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               
+             </div>  
+             <button>View</button>
+             <button>Download now</button>
+           </div>
+         </a>
+         <a href="#!" class="newbook_item">
+           <img class="big_book" src="./assets/img/братствокольца.jpg" alt="">
+           <div class="newbook_item-overlay">
+             <h5>Братство кольца</h5>
+             <h6>Джон Рональд Руэл Толкин</h6>
+             <div class="newbook_item-rateing">
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+             </div>  
+             <button>View</button>
+             <button>Download now</button>
+           </div>
+         </a>
+     </div>
+     </div>
+   </section>
 
     <section class="page_numbers">  
       <div class="container">

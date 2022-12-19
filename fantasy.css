@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+  
+  .column_f {
+    flex: 33,33%;
+  }
+  .column_f {
+    width: 100%;
+  }
+  
+  @media (min-width: 48em) {
+    .columns_f {
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+    }
+  }
