@@ -82,7 +82,7 @@ include "libs.php"
         <h3>Detective</h3>
       </div>
       <div class="newbooks_items">
-        <a href="viewpage.php" class="newbook_item">
+        <a href="agatha.php" class="newbook_item">
           <img class="big_book" src="./assets/img/убийствоввосточномэкспрессе.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>Убийство в «Восточном экспрессе»</h5>
@@ -95,7 +95,6 @@ include "libs.php"
               <i class='bx bxs-star-half'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
         <a href="#!" class="newbook_item">
