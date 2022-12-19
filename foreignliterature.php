@@ -122,11 +122,17 @@ include "libs.php"
     <!--========== CONTENTS ==========-->
     <section class="newbooks">
       <div class="container">
-      <div class="top_title">
-        <h3>Fantasy</h3>
-      </div>
+        <div class="top_title">
+          <h1 style="display:flex;justify-content: center;color: aliceblue;
+           text-shadow:
+           -1px 0px 0px blue,
+           1px 0px 0px blue,
+           0px -1px 0px blue,
+           0px 1px 0px blue;color: white;
+            ">foreign literature</h1> 
+         </div>
       <div class="newbooks_items">
-        <a href="#!" class="newbook_item">
+          <a href="viewpage.html" class="newbook_item">
             <img class="big_book" src="./assets/img/alittleprincess .jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>A Little Princess</h5>
@@ -136,13 +142,13 @@ include "libs.php"
                 <i class='bx bxs-star'></i>
                 <i class='bx bxs-star'></i>
                 <i class='bx bxs-star'></i>
-                <i class='bx bx-star'></i>
+                <i class='bx bxs-star-half'></i>
               </div>  
               <button>View</button>
               <button>Download now</button>
             </div>
           </a>
-          <a href="#!" class="newbook_item">
+          <a href="viewpage.html" class="newbook_item">
             <img class="big_book" src="./assets/img/christmasinprague.jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>Christmas In Prague</h5>
@@ -158,9 +164,106 @@ include "libs.php"
               <button>Download now</button>
             </div>
           </a>
+          <a href="viewpage.html" class="newbook_item">
+            <img class="big_book" src="./assets/img/великий_гэтсби.jpg" alt="">
+            <div class="newbook_item-overlay">
+              <h5>Великий Гэтсби</h5>
+              <h6>Ф.С.Фицджеральд</h6>
+              <div class="newbook_item-rateing">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>              
+                <i class='bx bx-star'></i>
+              </div>  
+              <button>View</button>
+              <button>Download now</button>
+            </div>
+          </a>
+          <a href="viewpage.html" class="newbook_item">
+            <img class="big_book" src="./assets/img/унесенные_ветром_том1.jpg" alt="">
+            <div class="newbook_item-overlay">
+              <h5>Унесенные ветром</h5>
+              <h6>Маргарет Митчелл</h6>
+              <div class="newbook_item-rateing">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>              
+                <i class='bx bx-star'></i>
+              </div>  
+              <button>View</button>
+              <button>Download now</button>
+            </div>
+          </a>
+          <a href="viewpage.html" class="newbook_item">
+            <img class="big_book" src="./assets/img/портретдориана.jpg" alt="">
+            <div class="newbook_item-overlay">
+              <h5>Портрет Дориана Грея</h5>
+              <h6>Оскар Уайльд</h6>
+              <div class="newbook_item-rateing">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>              
+                <i class='bx bx-star'></i>
+              </div>  
+              <button>View</button>
+              <button>Download now</button>
+            </div>
+          </a>
+          <a href="viewpage.html" class="newbook_item">
+            <img class="big_book" src="./assets/img/тритоварища.jpg" alt="">
+            <div class="newbook_item-overlay">
+              <h5>Три товарища</h5>
+              <h6>Эрих Мария Ремарк</h6>
+              <div class="newbook_item-rateing">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>              
+                <i class='bx bx-star'></i>
+              </div>  
+              <button>View</button>
+              <button>Download now</button>
+            </div>
+          </a>
+          <a href="viewpage.html" class="newbook_item">
+            <img class="big_book" src="./assets/img/цветыдляэлджернона.jpg" alt="">
+            <div class="newbook_item-overlay">
+              <h5>Цветы для Элджернона</h5>
+              <h6>Дэниел Киз</h6>
+              <div class="newbook_item-rateing">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>              
+                <i class='bx bx-star'></i>
+              </div>  
+              <button>View</button>
+              <button>Download now</button>
+            </div>
+          </a>
+          <a href="viewpage.html" class="newbook_item">
+            <img class="big_book" src="./assets/img/отверженные.jpg" alt="">
+            <div class="newbook_item-overlay">
+              <h5>Отверженные</h5>
+              <h6>Виктор Гюго</h6>
+              <div class="newbook_item-rateing">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>              
+                <i class='bx bx-star'></i>
+              </div>  
+              <button>View</button>
+              <button>Download now</button>
+            </div>
+          </a>
       </div>
       </div>
     </section>
+
 
     <section class="page_numbers">  
       <div class="container">
