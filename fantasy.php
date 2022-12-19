@@ -20,20 +20,13 @@ include "libs.php"
     <link rel="stylesheet" href="fantasy.css?saads=asdasdsasds" />
     <title>JIHC</title>
   </head>
-  <body>
   <body style="background-image: url(fantasy-castle-david-griffith.jpg); background-size: cover; background-repeat: no-repeat;">
     <!--========== HEADER ==========-->
     <header class="header">
       <div class="header__container">
                 <span class="nav__name">For you</span>
               </a>
-
-              <a href="#" class="nav__link">
-                <i class="bx bx-search nav__icon"></i>
-                <span class="nav__name">Browse</span>
-              </a>
               <a href="coffee.html" class="nav__link">
-              <i class="fa-solid fa-mug-hot" id="coff"></i>
               <i class="fa-solid fa-mug-hot nav__icon" id="coff"></i>
                 <span class="nav__name">Coffee</span>
               </a>
@@ -41,14 +34,6 @@ include "libs.php"
 
                 <i class="bx bx-book-alt nav__icon"></i>
                 <span class="nav__name">All books</span>
-              </a>
-              <a href="#" class="nav__link">
-                <i class="bx bx-list-ul nav__icon"></i>
-                <span class="nav__name">Top books</span>
-              </a>
-              <a href="#" class="nav__link">
-                <i class="bx bx-user nav__icon"></i>
-                <span class="nav__name">Authors</span>
               </a>
               <a href="newbooks.php" class="nav__link">
                 <i class="bx bx-plus-circle nav__icon"></i>
@@ -80,47 +65,6 @@ include "libs.php"
          </div>
     <!--========== CONTENTS ==========-->
     <section class="newbooks">
-      <div class="container">
-      <div class="top_title">
-        <h3>Fantasy</h3>
-      </div>
-      <div class="newbooks_items">
-        <a href="viewpage.php" class="newbook_item">
-            <img class="big_book" src="./assets/img/harrypotter.jpg" alt="">
-            <div class="newbook_item-overlay">
-              <h5>Harry Potter</h5>
-              <h6>J.K.ROWLING</h6>
-              <div class="newbook_item-rateing">
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star-half'></i>
-              </div>  
-              <button>View</button>
-              <button>Download now</button>
-            </div>
-          </a>
-          <a href="#!" class="newbook_item">
-            <img class="big_book" src="./assets/img/thehobbit.jpg" alt="">
-            <div class="newbook_item-overlay">
-              <h5>The Hobbit</h5>
-              <h6>J.R.R. TOLKIEN</h6>
-              <div class="newbook_item-rateing">
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star'></i>
-                <i class='bx bxs-star-half'></i>
-              </div>  
-              <button>View</button>
-              <button>Download now</button>
-            </div>
-          </a>
-
-      </div>
-      </div>
-    </section>
 
      <div class="newbooks_items">
        <a href="viewpage.html" class="newbook_item">
