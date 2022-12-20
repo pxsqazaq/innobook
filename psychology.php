@@ -101,10 +101,14 @@ include "libs.php"
             </div>
           </div>
         </div>
-        
-        <a href="#" class="nav__link nav__logout">
+        <?php   
+          if (check()) {
+            echo '<a href="logout.php" class="nav__link nav__logout">
           <i class="bx bx-log-out nav__icon"></i>
           <span class="nav__name">Log Out</span>
+        </a>';
+          }
+         ?>
         </a>
       </nav>
     </div>
@@ -122,7 +126,7 @@ include "libs.php"
       <div class="container">
       
       <div class="newbooks_items">
-        <a href="viewpage.php" class="newbook_item">
+        <a href="ps1.php" class="newbook_item">
           <img class="big_book" src="./assets/img/нисы.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>НИ СЫ</h5>
@@ -135,10 +139,10 @@ include "libs.php"
               <i class='bx bxs-star-half'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
+            
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="ps2.php" class="newbook_item">
           <img class="big_book" src="./assets/img/неной.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>НЕ НОЙ</h5>
@@ -151,10 +155,10 @@ include "libs.php"
               <i class='bx bxs-star-half'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
+         
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="ps3.php" class="newbook_item">
           <img class="big_book" src="./assets/img/выйдииззоныкомфорта.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>Выйди из зоны комфорта</h5>
@@ -167,10 +171,10 @@ include "libs.php"
               <i class='bx bxs-star-half'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
+           
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="ps4.php" class="newbook_item">
           <img class="big_book" src="./assets/img/самыйбогатыйчеловекв.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>Самый богатый человек в Вавилоне</h5>
@@ -183,10 +187,10 @@ include "libs.php"
               <i class='bx bxs-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
+           
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="ps5.php" class="newbook_item">
           <img class="big_book" src="./assets/img/пофигизм.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>Тонкое искусство пофигизма</h5>
@@ -199,10 +203,10 @@ include "libs.php"
               <i class='bx bx-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
+            
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="ps6.php" class="newbook_item">
           <img class="big_book" src="https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/62780292-olga-primachenko-k-sebe-nezhno-kniga-o-tom-kak-cenit-i-berech-sebya.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>К себе нежно</h5>
@@ -215,10 +219,10 @@ include "libs.php"
               <i class='bx bxs-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
+           
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="ps7.php" class="newbook_item">
           <img class="big_book" src="https://cv4.litres.ru/pub/c/audiokniga/cover_415/63995641-tatyana-muzhickaya-roman-s-samim-soboy-kak-uravnovesit-vnutrennie-63995641.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>Роман самим собой</h5>
@@ -231,10 +235,10 @@ include "libs.php"
               <i class='bx bxs-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
+           
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="ps8.php" class="newbook_item">
           <img class="big_book" src="https://cv3.litres.ru/pub/c/audiokniga/cover_415/49652437-tatyana-muzhickaya-mne-vse-lzya-49652437.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>Мне все льзя</h5>
@@ -247,7 +251,7 @@ include "libs.php"
               <i class='bx bxs-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
+          
           </div>
         </a>
       </div>

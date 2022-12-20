@@ -118,7 +118,7 @@ include "libs.php"
         <h3 style="text-align: center;">Marketing</h3>
       </div>
       <div class="newbooks_items">
-        <a href="viewpage.php" class="newbook_item">
+        <a href="m1.php" class="newbook_item">
           <img class="big_book" src="./assets/img/взломмаркетинга.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>Взлом Маркетинга</h5>
@@ -131,10 +131,9 @@ include "libs.php"
               <i class='bx bx-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="m2.php" class="newbook_item">
           <img class="big_book" src="./assets/img/маркетингбезбюджета.png" alt="">
           <div class="newbook_item-overlay">
             <h5>Маркетинг без бюджета</h5>
@@ -147,10 +146,9 @@ include "libs.php"
               <i class='bx bxs-star-half'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="m3.php" class="newbook_item">
           <img class="big_book" src="https://imgs.yagla.ru/blog/227/luchshie-knigi-po-marketingu--doveritelnyy-marketing.png" alt="">
           <div class="newbook_item-overlay">
             <h5>Доверительный маркетинг</h5>
@@ -162,11 +160,10 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button>View</button> 
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="m4.php" class="newbook_item">
           <img class="big_book" src="https://imgs.yagla.ru/blog/227/01-luchshie-knigi-po-marketingu--osnovy-marketinga.png" alt="">
           <div class="newbook_item-overlay">
             <h5>Основы маркетинга</h5>
@@ -178,11 +175,10 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button>View</button> 
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="m5.php" class="newbook_item">
           <img class="big_book" src="https://imgs.yagla.ru/blog/227/10-luchshie-knigi-po-marketingu--klienty-na-vsyu-jizn.png" alt="">
           <div class="newbook_item-overlay">
             <h5>Клиенты на всю жизнь</h5>
@@ -194,11 +190,10 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button>View</button> 
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="m6.php" class="newbook_item">
           <img class="big_book" src="https://imgs.yagla.ru/blog/227/13-luchshie-knigi-po-marketingu--strategiya-golubogo-okeana.png" alt="">
           <div class="newbook_item-overlay">
             <h5>Стратегия голубого океана</h5>
@@ -210,11 +205,10 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button>View</button> 
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="m7.php" class="newbook_item">
           <img class="big_book" src="https://imgs.yagla.ru/blog/227/14-luchshie-knigi-po-marketingu--o-reklame.png" alt="">
           <div class="newbook_item-overlay">
             <h5>О рекламе</h5>
@@ -226,11 +220,10 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button>View</button> 
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="m8.php" class="newbook_item">
           <img class="big_book" src="https://imgs.yagla.ru/blog/227/luchshie-knigi-po-marketingu--prodavaya-nezrimoe.png" alt="">
           <div class="newbook_item-overlay">
             <h5>Продавая незримое</h5>
@@ -242,8 +235,7 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button>View</button> 
           </div>
         </a>
       </div>

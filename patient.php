@@ -113,7 +113,7 @@
             </div>
             <div class="about_book">
             <div class="about_book-img">
-                    <img class="verybig_img" src="безмолвный пациент.jpg" alt="">
+                    <img class="verybig_img" src="./assets/img/безмолвный пациент.jpg" alt="">
                 </div>
                 <div class="about_book-text">
                     <div class="about_book-title">

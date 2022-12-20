@@ -128,7 +128,7 @@ include "libs.php"
        
       </div>
       <div class="newbooks_items">
-        <a href="viewpage.php" class="newbook_item">
+        <a href="it2.php" class="newbook_item">
           <img class="big_book" src="./assets/img/изучаемjava.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>Изучаем Java</h5>
@@ -140,11 +140,11 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button href="jihc/it2.php">View</button>
+            
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="it1.php" class="newbook_item">
           <img class="big_book" src="./assets/img/javascriptдлядетей.png" alt="">
           <div class="newbook_item-overlay">
             <h5>JavaScript для детей</h5>
@@ -156,11 +156,11 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button href="jihc/it1.php">View</button>
+            
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="it3.php" class="newbook_item">
           <img class="big_book" src="https://habrastorage.org/r/w1560/getpro/habr/post_images/070/bea/082/070bea0827a6592222ab27e3944d8ab2.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>The Complete Software Developer's Career Guide</h5>
@@ -172,11 +172,12 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button href="it3.php">View</button>
+           
+
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="it4.php" class="newbook_item">
           <img class="big_book" src="https://habrastorage.org/r/w1560/getpro/habr/post_images/c32/d97/037/c32d970370d8732049e9a0e97f86d2e6.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>The Definitive Guide to Programming Professionally
@@ -189,15 +190,15 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button href="jihc/it4.php">View</button>
+           
           </div>
         </a>
-        <a href="#!" class="newbook_item">
-          <img class="big_book" src="./assets/img/javascriptдлядетей.png" alt="">
+        <a href="it5.php" class="newbook_item">
+          <img class="big_book" src="https://media.proglib.io/posts/2021/08/20/64e5a7b47f34588935fc9e8f26d8945b.jpg" alt="">
           <div class="newbook_item-overlay">
-            <h5>JavaScript для детей</h5>
-            <h6>Ник Морган</h6>
+            <h5>Программист-прагматик</h5>
+            <h6> Э. Хант</h6>
             <div class="newbook_item-rateing">
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star'></i>
@@ -205,11 +206,11 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button href="jihc/it5.php" >View</button>
+           
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="it6.php" class="newbook_item">
           <img class="big_book" src="https://habrastorage.org/r/w1560/getpro/habr/post_images/f41/6ae/203/f416ae2033070d6749d77fffc8d7405b.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>Hacking: The Art of Exploitation, 2nd Edition</h5>
@@ -221,11 +222,11 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button href="jihc/it6.php">View</button>
+            
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="it7.php" class="newbook_item">
           <img class="big_book" src="https://habrastorage.org/r/w1560/getpro/habr/post_images/713/fdb/b0c/713fdbb0ce247bc76974ad695de1152c.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>Make Your Own Neural Network</h5>
@@ -237,11 +238,11 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button href="jihc/it7.php">View</button>
+           
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="it8.php" class="newbook_item">
           <img class="big_book" src="https://habrastorage.org/r/w1560/getpro/habr/post_images/7fd/8bc/213/7fd8bc213133888acada1ceb3f76ff9a.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>The Art of Invisibility</h5>
@@ -253,8 +254,8 @@ include "libs.php"
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
             </div>  
-            <button>View</button>
-            <button>Download now</button>
+            <button href="it8.php">View</button>
+          
           </div>
         </a>
         

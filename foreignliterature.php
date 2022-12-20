@@ -117,7 +117,7 @@ include "libs.php"
       <div class="container">
       <div class="newbooks_items">
           <a href="princess.php" class="newbook_item">
-            <img class="big_book" src="./assets/img/alittleprincess.jpg" alt="">
+            <img class="big_book" src="assets/img/alittleprincess .jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>Маленькая принцесса</h5>
               <h6>Фрэнсис Бёрнет</h6>
@@ -143,8 +143,7 @@ include "libs.php"
                 <i class='bx bxs-star-half'></i>              
                 <i class='bx bx-star'></i>
               </div>  
-              <button>View</button>
-              <button>Download now</button>
+              <button>View</button> 
             </div>
           </a>
           <a href="great.php" class="newbook_item">
@@ -159,8 +158,7 @@ include "libs.php"
                 <i class='bx bxs-star-half'></i>              
                 <i class='bx bx-star'></i>
               </div>  
-              <button>View</button>
-              <button>Download now</button>
+              <button>View</button> 
             </div>
           </a>
           <a href="margaret.php" class="newbook_item">
@@ -175,8 +173,7 @@ include "libs.php"
                 <i class='bx bxs-star-half'></i>              
                 <i class='bx bx-star'></i>
               </div>  
-              <button>View</button>
-              <button>Download now</button>
+              <button>View</button> 
             </div>
           </a>
           <a href="oscar.php" class="newbook_item">
