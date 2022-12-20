@@ -117,10 +117,10 @@ include "libs.php"
       <div class="container">
       <div class="newbooks_items">
           <a href="princess.php" class="newbook_item">
-            <img class="big_book" src="./assets/img/alittleprincess .jpg" alt="">
+            <img class="big_book" src="./assets/img/alittleprincess.jpg" alt="">
             <div class="newbook_item-overlay">
-              <h5>A Little Princess</h5>
-              <h6>FRANCES HODGSON BURNETT</h6>
+              <h5>Маленькая принцесса</h5>
+              <h6>Фрэнсис Бёрнет</h6>
               <div class="newbook_item-rateing">
                 <i class='bx bxs-star'></i>
                 <i class='bx bxs-star'></i>
@@ -134,8 +134,8 @@ include "libs.php"
           <a href="christmas.php" class="newbook_item">
             <img class="big_book" src="./assets/img/christmasinprague.jpg" alt="">
             <div class="newbook_item-overlay">
-              <h5>Christmas In Prague</h5>
-              <h6>JOYCE HANNAM</h6>
+              <h5>Рождество в Праге</h5>
+              <h6>Джойс Ханнам</h6>
               <div class="newbook_item-rateing">
                 <i class='bx bxs-star'></i>
                 <i class='bx bxs-star'></i>
