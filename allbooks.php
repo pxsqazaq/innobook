@@ -128,7 +128,6 @@ include "libs.php"
               <i class='bx bxs-star-half'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
         <a href="#!" class="newbook_item">
@@ -144,7 +143,6 @@ include "libs.php"
               <i class='bx bxs-star-half'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
         <a href="#!" class="newbook_item">
@@ -160,7 +158,6 @@ include "libs.php"
               <i class='bx bxs-star-half'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
         <a href="#!" class="newbook_item">
@@ -176,7 +173,6 @@ include "libs.php"
               <i class='bx bx-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
         <a href="#!" class="newbook_item">
@@ -192,7 +188,6 @@ include "libs.php"
               <i class='bx bx-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
         <a href="#!" class="newbook_item">
@@ -208,7 +203,6 @@ include "libs.php"
               <i class='bx bx-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
         <a href="#!" class="newbook_item">
@@ -224,7 +218,6 @@ include "libs.php"
               <i class='bx bx-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
         <a href="#!" class="newbook_item">
@@ -240,7 +233,6 @@ include "libs.php"
               <i class='bx bx-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
         <a href="#!" class="newbook_item">
@@ -256,7 +248,6 @@ include "libs.php"
               <i class='bx bx-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
         <a href="#!" class="newbook_item">
@@ -272,7 +263,6 @@ include "libs.php"
               <i class='bx bx-star'></i>
             </div>  
             <button>View</button>
-            <button>Download now</button>
           </div>
         </a>
       </div>
