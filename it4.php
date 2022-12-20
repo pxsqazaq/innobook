@@ -140,44 +140,6 @@
             </div>
         </div>
     </section>
-    <section class="similar-books" style="overflow-x: hidden;">
-      <div class="container">
-        <div class="similar-books__body">
-          <div class="shows__title">
-          
-          </div>
-          <div class="similar-books-slider swiper-container">
-            <div class="similar-book-slider__wrapper swiper-wrapper">
-              <div class="similar-books-slider__slide swiper-slide">
-                <div class="similar-books-slider__image">
-                  <a href="#"><img class="slider__book" src="./assets/img/lord .png" alt=""></a>
-                </div>
-              </div>
-              <div class="similar-books-slider__slide swiper-slide">
-                <div class="similar-books-slider__image">
-                  <a href="#"><img class="slider__book" src="./assets/img/the witchs boy.png" alt=""></a>
-                </div>
-              </div>
-              <div class="similar-books-slider__slide swiper-slide">
-                <div class="similar-books-slider__image">
-                  <a href="#"><img class="slider__book" src="./assets/img/рождение легенды.png" alt=""></a>
-                </div>
-              </div>
-              <div class="similar-books-slider__slide swiper-slide">
-                <div class="similar-books-slider__image">
-                  <a href="#"><img class="slider__book" src="./assets/img/harrypotter.jpg" alt=""></a>
-                </div>
-              </div>
-              <div class="similar-books-slider__slide swiper-slide">
-                <div class="similar-books-slider__image">
-                  <a href="#"><img class="slider__book" src="./assets/img/дары смерти.png" alt=""></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <div class="footerwhite">
       <div class="container">

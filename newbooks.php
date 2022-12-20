@@ -77,7 +77,7 @@ include "libs.php"
                 <i class="bx bx-search nav__icon"></i>
                 <span class="nav__name">Browse</span>
               </a>
-              <a href="coffee.html" class="nav__link">
+              <a href="coffee.php" class="nav__link">
               <i class="fa-solid fa-mug-hot nav__icon" id="coff"></i>
                 <span class="nav__name">Coffee</span>
               </a>

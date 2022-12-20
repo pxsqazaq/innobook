@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -136,49 +134,9 @@
                 </div>
             </div>
             <div class="viewbook_downloadbtn">
-                <a href="./assets/books/Гарри Поттер и философский камень.epub" download>Download EPUB</a>
                 <a href="./assets/books/Гарри Поттер и философский камень.pdf" download>Download PDF</a>
-                <a href="./assets/books/Гарри Поттер и философский камень.mobi" download>Download MOBI</a>
             </div>
         </div>
-    </section>
-    <section class="similar-books" style="overflow-x: hidden;">
-      <div class="container">
-        <div class="similar-books__body">
-          <div class="shows__title">
-            <h3>Similar Books:</h3>
-          </div>
-          <div class="similar-books-slider swiper-container">
-            <div class="similar-book-slider__wrapper swiper-wrapper">
-              <div class="similar-books-slider__slide swiper-slide">
-                <div class="similar-books-slider__image">
-                  <a href="#"><img class="slider__book" src="./assets/img/lord .png" alt=""></a>
-                </div>
-              </div>
-              <div class="similar-books-slider__slide swiper-slide">
-                <div class="similar-books-slider__image">
-                  <a href="#"><img class="slider__book" src="./assets/img/the witchs boy.png" alt=""></a>
-                </div>
-              </div>
-              <div class="similar-books-slider__slide swiper-slide">
-                <div class="similar-books-slider__image">
-                  <a href="#"><img class="slider__book" src="./assets/img/рождение легенды.png" alt=""></a>
-                </div>
-              </div>
-              <div class="similar-books-slider__slide swiper-slide">
-                <div class="similar-books-slider__image">
-                  <a href="#"><img class="slider__book" src="./assets/img/harrypotter.jpg" alt=""></a>
-                </div>
-              </div>
-              <div class="similar-books-slider__slide swiper-slide">
-                <div class="similar-books-slider__image">
-                  <a href="#"><img class="slider__book" src="./assets/img/дары смерти.png" alt=""></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <div class="footerwhite">
@@ -187,7 +145,6 @@
       </div>
     </div>
     <!--========== MAIN JS ==========-->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>

@@ -75,7 +75,7 @@ include "libs.php"
                 <i class="bx bx-search nav__icon"></i>
                 <span class="nav__name">Browse</span>
               </a>
-              <a href="coffee.html" class="nav__link">
+              <a href="coffee.php" class="nav__link">
               <i class="fa-solid fa-mug-hot nav__icon" id="coff"></i>
                 <span class="nav__name">Coffee</span>
               </a>
@@ -115,7 +115,7 @@ include "libs.php"
         <h3>All books</h3>
       </div>
       <div class="newbooks_items">
-        <a href="#!" class="newbook_item">
+        <a href="harry.php" class="newbook_item">
           <img class="big_book" src="./assets/img/harrypotter.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>Harry Potter</h5>
@@ -130,22 +130,21 @@ include "libs.php"
             <button>View</button>
           </div>
         </a>
-        <a href="#!" class="newbook_item">
-          <img class="big_book" src="./assets/img/sherlockholmes.jpg" alt="">
-          <div class="newbook_item-overlay">
-            <h5>Sherlock Holmes</h5>
-            <h6>Joseph Delaney</h6>
-            <div class="newbook_item-rateing">
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star-half'></i>
-            </div>  
-            <button>View</button>
-          </div>
-        </a>
-        <a href="#!" class="newbook_item">
+        <a href="witcher.php" class="newbook_item">
+           <img class="big_book" src="./assets/img/witcher.jpg" alt="">
+           <div class="newbook_item-overlay">
+             <h5>Ведьмак</h5>
+             <h6>Анджей Сапковский</h6>
+             <div class="newbook_item-rateing">
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star-half'></i>
+             </div>  
+             <button>View</button>
+           </div>
+         </a>
+        <a href="hobbit.php" class="newbook_item">
           <img class="big_book" src="./assets/img/thehobbit.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>The Hobbit</h5>
@@ -160,22 +159,22 @@ include "libs.php"
             <button>View</button>
           </div>
         </a>
-        <a href="#!" class="newbook_item">
-          <img class="big_book" src="./assets/img/achristmascarol.jpg" alt="">
-          <div class="newbook_item-overlay">
-            <h5>A Christmas Carol</h5>
-            <h6>CHARLES DICKENS</h6>
-            <div class="newbook_item-rateing">
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bx-star'></i>
-            </div>  
-            <button>View</button>
-          </div>
-        </a>
-        <a href="#!" class="newbook_item">
+        <a href="tolkien.php" class="newbook_item">
+           <img class="big_book" src="./assets/img/братствокольца.jpg" alt="">
+           <div class="newbook_item-overlay">
+             <h5>Братство кольца</h5>
+             <h6>Джон Рональд Руэл Толкин</h6>
+             <div class="newbook_item-rateing">
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+               <i class='bx bxs-star'></i>
+             </div>  
+             <button>View</button>
+           </div>
+         </a>
+        <a href="christmas.php" class="newbook_item">
           <img class="big_book" src="./assets/img/christmasinprague.jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>Christmas In Prague</h5>
@@ -190,7 +189,7 @@ include "libs.php"
             <button>View</button>
           </div>
         </a>
-        <a href="#!" class="newbook_item">
+        <a href="princess.php" class="newbook_item">
           <img class="big_book" src="./assets/img/alittleprincess .jpg" alt="">
           <div class="newbook_item-overlay">
             <h5>A Little Princess</h5>
@@ -205,66 +204,68 @@ include "libs.php"
             <button>View</button>
           </div>
         </a>
-        <a href="#!" class="newbook_item">
-          <img class="big_book" src="./assets/img/thecallofthewild.jpg" alt="">
+        <a href="ps5.php" class="newbook_item">
+          <img class="big_book" src="./assets/img/пофигизм.jpg" alt="">
           <div class="newbook_item-overlay">
-            <h5>The Call of the Wild</h5>
-            <h6>JACK LONDON</h6>
+            <h5>Тонкое искусство пофигизма</h5>
+            <h6>Марк Мэнсон</h6>
             <div class="newbook_item-rateing">
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>              
               <i class='bx bx-star'></i>
             </div>  
             <button>View</button>
+            
           </div>
         </a>
-        <a href="#!" class="newbook_item">
-          <img class="big_book" src="./assets/img/theprisonerofzenda.jpg" alt="">
+        <a href="ps8.php" class="newbook_item">
+          <img class="big_book" src="https://cv3.litres.ru/pub/c/audiokniga/cover_415/49652437-tatyana-muzhickaya-mne-vse-lzya-49652437.jpg" alt="">
           <div class="newbook_item-overlay">
-            <h5>The prisoner of Zenda</h5>
-            <h6>anthony hope</h6>
+            <h5>Мне все льзя</h5>
+            <h6>Татьяна Мужицкая</h6>
             <div class="newbook_item-rateing">
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star'></i>
-              <i class='bx bx-star'></i>
+              <i class='bx bxs-star'></i>
             </div>  
             <button>View</button>
+          
           </div>
         </a>
-        <a href="#!" class="newbook_item">
-          <img class="big_book" src="./assets/img/thejunglebook.jpg" alt="">
+        <a href="it4.php" class="newbook_item">
+          <img class="big_book" src="https://habrastorage.org/r/w1560/getpro/habr/post_images/c32/d97/037/c32d970370d8732049e9a0e97f86d2e6.jpg" alt="">
           <div class="newbook_item-overlay">
-            <h5>The Jungle Book</h5>
-            <h6>rudyard kipling</h6>
+            <h5>The Definitive Guide to Programming Professionally
+            </h5>
+            <h6>Кори Алтофф</h6>
             <div class="newbook_item-rateing">
+              <i class='bx bxs-star'></i>
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star'></i>
               <i class='bx bxs-star-half'></i>
-              <i class='bx bx-star'></i>
             </div>  
-            <button>View</button>
+            <button>View</button> 
           </div>
         </a>
-        <a href="#!" class="newbook_item">
-          <img class="big_book" src="./assets/img/richdad.jpg" alt="">
-          <div class="newbook_item-overlay">
-            <h5>Rich Dad Poor Dad</h5>
-            <h6>Robert T.Kiyosaki</h6>
-            <div class="newbook_item-rateing">
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bxs-star'></i>
-              <i class='bx bx-star'></i>
-            </div>  
-            <button>View</button>
-          </div>
-        </a>
+        <a href="agatha1.php" class="newbook_item">
+  <img class="big_book" src="./assets/img/десятьнегритят.jpg" alt="">
+  <div class="newbook_item-overlay">
+    <h5>Десять негритят</h5>
+    <h6>Агата Кристи</h6>
+    <div class="newbook_item-rateing">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+    </div>  
+    <button>View</button>
+  </div>
       </div>
       </div>
     </section>

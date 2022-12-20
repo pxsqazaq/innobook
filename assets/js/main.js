@@ -1,22 +1,16 @@
-/*==================== SHOW NAVBAR START ====================*/
 const showMenu = (headerToggle, navbarId) =>{
     const toggleBtn = document.getElementById(headerToggle),
     nav = document.getElementById(navbarId)
     
-    // Validate that variables exist
     if(headerToggle && navbarId){
         toggleBtn.addEventListener('click', ()=>{
-            // We add the show-menu class to the div tag with the nav__menu class
             nav.classList.toggle('show-menu')
-            // change icon
             toggleBtn.classList.toggle('bx-x')
         })
     }
 }
 showMenu('header-toggle','navbar')
-/*==================== SHOW NAVBAR END ====================*/
 
-/*==================== LINK ACTIVE START ====================*/
 const linkColor = document.querySelectorAll('.nav__link')
 
 function colorLink(){
@@ -26,7 +20,6 @@ function colorLink(){
 
 linkColor.forEach(l => l.addEventListener('click', colorLink))
 
-/*==================== LINK ACTIVE END ====================*/
 
 // slider
 let swiper = new Swiper('.swiper-container', {
