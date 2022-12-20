@@ -116,7 +116,7 @@ include "libs.php"
     <section class="newbooks">
       <div class="container">
       <div class="newbooks_items">
-          <a href="viewpage.html" class="newbook_item">
+          <a href="princess.php" class="newbook_item">
             <img class="big_book" src="./assets/img/alittleprincess .jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>A Little Princess</h5>
@@ -129,10 +129,9 @@ include "libs.php"
                 <i class='bx bxs-star-half'></i>
               </div>  
               <button>View</button>
-              <button>Download now</button>
             </div>
           </a>
-          <a href="viewpage.html" class="newbook_item">
+          <a href="christmas.php" class="newbook_item">
             <img class="big_book" src="./assets/img/christmasinprague.jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>Christmas In Prague</h5>
@@ -148,7 +147,7 @@ include "libs.php"
               <button>Download now</button>
             </div>
           </a>
-          <a href="viewpage.html" class="newbook_item">
+          <a href="great.php" class="newbook_item">
             <img class="big_book" src="./assets/img/великий_гэтсби.jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>Великий Гэтсби</h5>
@@ -164,7 +163,7 @@ include "libs.php"
               <button>Download now</button>
             </div>
           </a>
-          <a href="viewpage.html" class="newbook_item">
+          <a href="margaret.php" class="newbook_item">
             <img class="big_book" src="./assets/img/унесенные_ветром_том1.jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>Унесенные ветром</h5>
@@ -180,7 +179,7 @@ include "libs.php"
               <button>Download now</button>
             </div>
           </a>
-          <a href="viewpage.html" class="newbook_item">
+          <a href="oscar.php" class="newbook_item">
             <img class="big_book" src="./assets/img/портретдориана.jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>Портрет Дориана Грея</h5>
@@ -196,7 +195,7 @@ include "libs.php"
               <button>Download now</button>
             </div>
           </a>
-          <a href="viewpage.html" class="newbook_item">
+          <a href="three.php" class="newbook_item">
             <img class="big_book" src="./assets/img/тритоварища.jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>Три товарища</h5>
@@ -212,7 +211,7 @@ include "libs.php"
               <button>Download now</button>
             </div>
           </a>
-          <a href="viewpage.html" class="newbook_item">
+          <a href="flowers.php" class="newbook_item">
             <img class="big_book" src="./assets/img/цветыдляэлджернона.jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>Цветы для Элджернона</h5>
@@ -228,7 +227,7 @@ include "libs.php"
               <button>Download now</button>
             </div>
           </a>
-          <a href="viewpage.html" class="newbook_item">
+          <a href="gugo.php" class="newbook_item">
             <img class="big_book" src="./assets/img/отверженные.jpg" alt="">
             <div class="newbook_item-overlay">
               <h5>Отверженные</h5>
